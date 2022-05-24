@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+<body>
+
+   <div class="topBar">
+      <h1 class="logo">Network</h1>
+   </div>
+
+   <h2 class="feed">Your Feed</h2>
+
+
+   <div class="container">
+      <div class="leftBar">
+         <div class="avatarCard">
+            <img src="./img/user.png" alt="Avatar" class="avi">
+            <a href="#add" class="add">Add an Avatar</a>
+            <h1 class="userName">James Doe</h1>
+         </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="rightBar">
+      
+         <div class="btn-container">
+            <div class="top">
+               <h2 class="name">Neil M</h2>
+               <div class="number-counter">
+                  <h2 class="like-count" id="one">9</h2>
+                  <h2 class="like-text">like(s)</h2>
+               </div>
+               <button onclick="clickBtn()" class="like-button">Like(s)</button>
+            </div>
+            <p class="text">I just set up this new discord bot, let me know what you all think <a href="#link">link</a></p>
+         </div>
+         <!-- Next Card -->
+         <div class="btn-container">
+            <div class="top">
+               <h2 class="name">Nichole K</h2>
+               <div class="number-counter">
+                  <h2 class="like-count" id="two">12</h2>
+                  <h2 class="like-text">like(s)</h2>
+               </div>
+               <button onclick="clickBtnTwo()" class="like-button">Like(s)</button>
+            </div>
+            <p class="text">Just finished my <a href="#comic">next comic</a>, check it out.</p>
+         </div>
+         <!-- Next Card -->
+         <div class="btn-container">
+            <div class="top">
+               <h2 class="name">Jim R</h2>
+               <div class="number-counter">
+                  <h2 class="like-count" id="three">9</h2>
+                  <h2 class="like-text">like(s)</h2>
+               </div>
+               <button onclick="clickBtnThree()" class="like-button">Like(s)</button>
+            </div>
+            <p class="text">TI can't stop listening to the <a href="#album">new album</a>. <br>
+               Who else is liking it?</p>
+         </div>
+
+      </div>
+   </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
